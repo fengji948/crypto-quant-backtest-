@@ -4,8 +4,8 @@ import numpy as np
 
 # ================= 1. 获取真实数据 =================
 proxies = {
-    'http': 'http://127.0.0.1:33210',
-    'https': 'http://127.0.0.1:33210',
+    'http': 'http://127.0.0.1:10808',
+    'https': 'http://127.0.0.1:10808',
 }
 exchange = ccxt.okx({'proxies': proxies})
 
